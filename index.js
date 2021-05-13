@@ -1,8 +1,8 @@
-const wbm = require('wbm');
-const reader = require('xlsx');
+//const wbm = require('wbm');
+//const reader = require('xlsx');
 const express = require('express')
 const app = express()
-const port = process.env.PORT || 3000;
+const port = process.env.port || 3000;
 const axios = require('axios');
 const cors = require('cors');
 app.use(cors());
